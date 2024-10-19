@@ -17,7 +17,8 @@ CFLAGS = -Wall -Wextra -Werror -I .
 AR = ar
 ARFLAGS = rcs
 
-SOURCES = src/ft_strlen.c
+SOURCES = 	src/ctype/ft_isalpha.c \
+			src/string/ft_strlen.c
 
 OBJECTS = $(SOURCES:.c=.o)
 
