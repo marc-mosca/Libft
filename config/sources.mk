@@ -1,7 +1,7 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    Makefile                                           :+:      :+:    :+:    #
+#    sources.mk                                         :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
@@ -10,36 +10,12 @@
 #                                                                              #
 # **************************************************************************** #
 
-include config/dependencies.mk
-include config/sources.mk
+SOURCES = 																	\
+	src/characters/ft_isalnum.c												\
+	src/characters/ft_isalpha.c												\
+	src/characters/ft_isascii.c												\
+	src/characters/ft_isdigit.c												\
+	src/characters/ft_isprint.c												\
+	src/strings/ft_strlen.c
 
-NAME = libft.a
-
-CC = cc
-CFLAGS = -Wall -Wextra -Werror -I .
-AR = ar
-ARFLAGS = rcs
-
-.PHONY: all
-all:
-	$(MAKE) $(NAME)
-
-%.o: %.c $(DEPENDENCIES)
-	$(CC) $(CFLAGS) -c -o $@ $<
-
-$(NAME): $(OBJECTS)
-	$(AR) $(ARFLAGS) $@ $^
-
-.PHONY: clean
-clean:
-	$(RM) $(OBJECTS)
-
-.PHONY: fclean
-fclean:
-	$(MAKE) clean
-	$(RM) $(NAME)
-
-.PHONY: re
-re:
-	$(MAKE) fclean
-	$(MAKE) all
+OBJECTS = $(SOURCES:.c=.o)
