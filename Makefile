@@ -19,6 +19,7 @@ ARFLAGS = rcs
 
 SOURCES = 						\
 	src/characters/ft_isalpha.c	\
+	src/characters/ft_isdigit.c
 
 OBJECTS = $(SOURCES:.c=.o)
 
