@@ -20,6 +20,7 @@ SOURCES = 																	\
 	src/memories/ft_memcpy.c												\
 	src/memories/ft_memmove.c												\
 	src/memories/ft_memset.c												\
+	src/strings/ft_strlcpy.c												\
 	src/strings/ft_strlen.c
 
 OBJECTS = $(SOURCES:.c=.o)
