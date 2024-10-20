@@ -6,7 +6,7 @@
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/20 17:29:36 by mmosca            #+#    #+#             */
-/*   Updated: 2024/10/20 17:31:31 by mmosca           ###   ########.fr       */
+/*   Updated: 2024/10/20 17:39:56 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,11 +15,11 @@
 /**
  * @brief Checks if the given character is a printable ASCII character.
  *
- * @param c The character to be checked, passed as an integer.
- *
  * This function checks whether the provided character is a printable ASCII
  * character. Printable characters include all visible characters from
  * space (' ') to tilde ('~'), corresponding to ASCII values 32 through 126.
+ *
+ * @param c The character to be checked, passed as an integer.
  *
  * @return True if the character is a printable character.
  *         False if the character is not printable (e.g., control characters).

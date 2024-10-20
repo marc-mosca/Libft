@@ -22,7 +22,8 @@ SOURCES = 							\
 	src/characters/ft_isalpha.c		\
 	src/characters/ft_isascii.c		\
 	src/characters/ft_isdigit.c		\
-	src/characters/ft_isprint.c
+	src/characters/ft_isprint.c		\
+	src/strings/ft_strlen.c
 
 OBJECTS = $(SOURCES:.c=.o)
 

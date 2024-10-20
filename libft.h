@@ -6,7 +6,7 @@
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/19 20:38:00 by mmosca            #+#    #+#             */
-/*   Updated: 2024/10/20 17:30:22 by mmosca           ###   ########.fr       */
+/*   Updated: 2024/10/20 17:35:16 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 // MARK: - Includes
 
 # include <stdbool.h>
+# include <stdio.h>
 
 // MARK: - Prototypings
 
@@ -24,5 +25,7 @@ bool	ft_isalpha(int c);
 bool	ft_isascii(int c);
 bool	ft_isdigit(int c);
 bool	ft_isprint(int c);
+
+size_t	ft_strlen(const char *s);
 
 #endif // LIBFT_H
