@@ -21,7 +21,8 @@ SOURCES = 							\
 	src/characters/ft_isalnum.c		\
 	src/characters/ft_isalpha.c		\
 	src/characters/ft_isascii.c		\
-	src/characters/ft_isdigit.c
+	src/characters/ft_isdigit.c		\
+	src/characters/ft_isprint.c
 
 OBJECTS = $(SOURCES:.c=.o)
 
