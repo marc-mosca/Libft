@@ -19,6 +19,7 @@ ARFLAGS = rcs
 
 SOURCES = 	src/ctype/ft_isalnum.c \
 			src/ctype/ft_isalpha.c \
+			src/ctype/ft_isascii.c \
 			src/ctype/ft_isdigit.c \
 			src/string/ft_strlen.c
 
