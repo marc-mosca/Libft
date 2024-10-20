@@ -1,34 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/19 20:38:00 by mmosca            #+#    #+#             */
-/*   Updated: 2024/10/20 18:04:03 by mmosca           ###   ########.fr       */
+/*   Created: 2024/10/20 18:02:14 by mmosca            #+#    #+#             */
+/*   Updated: 2024/10/20 18:06:09 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
+#include "libft.h"
 
-// MARK: - Includes
-
-# include <stdbool.h>
-# include <stdio.h>
-
-// MARK: - Prototypings
-
-bool	ft_isalnum(int c);
-bool	ft_isalpha(int c);
-bool	ft_isascii(int c);
-bool	ft_isdigit(int c);
-bool	ft_isprint(int c);
-
-void	ft_bzero(void *s, size_t n);
-void	*ft_memset(void *b, int c, size_t len);
-
-size_t	ft_strlen(const char *s);
-
-#endif // LIBFT_H
+/**
+ * Sets a block of memory to zero.
+ *
+ * This function fills the first `n` bytes of the memory area pointed to by `s`
+ * with zero bytes. It is typically used to initialize or reset memory.
+ *
+ * @param s A pointer to the memory area to be zeroed.
+ * @param n The number of bytes to set to zero.
+ */
+void	ft_bzero(void *s, size_t n)
+{
+	ft_memset(s, 0, n);
+}
