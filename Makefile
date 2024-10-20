@@ -17,15 +17,8 @@ CFLAGS = -Wall -Wextra -Werror -I .
 AR = ar
 ARFLAGS = rcs
 
-SOURCES = 	src/ctype/ft_isalnum.c \
-			src/ctype/ft_isalpha.c \
-			src/ctype/ft_isascii.c \
-			src/ctype/ft_isdigit.c \
-			src/ctype/ft_isprint.c \
-			src/string/ft_memcpy.c \
-			src/string/ft_memset.c \
-			src/string/ft_strlen.c \
-			src/strings/ft_bzero.c
+SOURCES = 						\
+	src/characters/ft_isalpha.c	\
 
 OBJECTS = $(SOURCES:.c=.o)
 
