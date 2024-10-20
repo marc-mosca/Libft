@@ -5,14 +5,25 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/20 16:52:36 by mmosca            #+#    #+#             */
-/*   Updated: 2024/10/20 16:53:02 by mmosca           ###   ########.fr       */
+/*   Created: 2024/10/20 17:26:52 by mmosca            #+#    #+#             */
+/*   Updated: 2024/10/20 17:28:23 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isascii(int c)
+/**
+ * @brief Checks if the given character is a valid ASCII character.
+ *
+ * @param c The character to be checked, passed as an integer.
+ *
+ * This function checks whether the provided character is part of the ASCII set,
+ * which includes characters with values from 0 to 127 (inclusive).
+ *
+ * @return True if the character is an ASCII character (values from 0 to 127).
+ *         False if the character is outside the ASCII range.
+ */
+bool	ft_isascii(int c)
 {
 	return (c >= 0 && c <= 127);
 }
