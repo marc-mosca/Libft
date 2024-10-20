@@ -6,7 +6,7 @@
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/19 20:38:00 by mmosca            #+#    #+#             */
-/*   Updated: 2024/10/20 17:21:33 by mmosca           ###   ########.fr       */
+/*   Updated: 2024/10/20 17:26:02 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,11 +16,10 @@
 // MARK: - Includes
 
 # include <stdbool.h>
-# include <stdio.h>
-# include <unistd.h>
 
 // MARK: - Prototypings
 
+bool	ft_isalnum(int c);
 bool	ft_isalpha(int c);
 bool	ft_isdigit(int c);
 
