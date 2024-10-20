@@ -22,6 +22,7 @@ SOURCES = 	src/ctype/ft_isalnum.c \
 			src/ctype/ft_isascii.c \
 			src/ctype/ft_isdigit.c \
 			src/ctype/ft_isprint.c \
+			src/string/ft_memset.c \
 			src/string/ft_strlen.c
 
 OBJECTS = $(SOURCES:.c=.o)
