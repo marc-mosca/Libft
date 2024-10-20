@@ -18,6 +18,7 @@ SOURCES = 																	\
 	src/characters/ft_isprint.c												\
 	src/memories/ft_bzero.c													\
 	src/memories/ft_memcpy.c												\
+	src/memories/ft_memmove.c												\
 	src/memories/ft_memset.c												\
 	src/strings/ft_strlen.c
 
