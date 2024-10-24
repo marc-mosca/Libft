@@ -19,6 +19,7 @@ SOURCES = 																	\
 	sources/characters/ft_tolower.c											\
 	sources/characters/ft_toupper.c											\
 	sources/memories/ft_bzero.c												\
+	sources/memories/ft_memchr.c											\
 	sources/memories/ft_memcpy.c											\
 	sources/memories/ft_memmove.c											\
 	sources/memories/ft_memset.c											\

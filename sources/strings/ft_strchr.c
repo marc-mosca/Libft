@@ -6,7 +6,7 @@
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 17:09:01 by mmosca            #+#    #+#             */
-/*   Updated: 2024/10/24 17:13:21 by mmosca           ###   ########.fr       */
+/*   Updated: 2024/10/24 17:46:42 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,16 +28,5 @@
  */
 char	*ft_strchr(const char *s, int c)
 {
-	size_t	i;
-
-	i = 0;
-	while (s[i])
-	{
-		if (s[i] == (char) c)
-			return ((char *)&s[i]);
-		i++;
-	}
-	if (s[i] == (char) c)
-		return ((char *)&s[i]);
-	return (NULL);
+	return (ft_memchr(s, c, ft_strlen(s) + 1));
 }
