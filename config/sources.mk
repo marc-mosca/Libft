@@ -16,6 +16,8 @@ SOURCES = 																	\
 	src/characters/ft_isascii.c												\
 	src/characters/ft_isdigit.c												\
 	src/characters/ft_isprint.c												\
+	src/characters/ft_tolower.c												\
+	src/characters/ft_toupper.c												\
 	src/memories/ft_bzero.c													\
 	src/memories/ft_memcpy.c												\
 	src/memories/ft_memmove.c												\
