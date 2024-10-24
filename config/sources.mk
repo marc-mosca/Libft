@@ -11,22 +11,22 @@
 # **************************************************************************** #
 
 SOURCES = 																	\
-	src/characters/ft_isalnum.c												\
-	src/characters/ft_isalpha.c												\
-	src/characters/ft_isascii.c												\
-	src/characters/ft_isdigit.c												\
-	src/characters/ft_isprint.c												\
-	src/characters/ft_tolower.c												\
-	src/characters/ft_toupper.c												\
-	src/memories/ft_bzero.c													\
-	src/memories/ft_memcpy.c												\
-	src/memories/ft_memmove.c												\
-	src/memories/ft_memset.c												\
-	src/strings/ft_strchr.c													\
-	src/strings/ft_strlcat.c												\
-	src/strings/ft_strlcpy.c												\
-	src/strings/ft_strlen.c													\
-	src/strings/ft_strnlen.c												\
-	src/strings/ft_strrchr.c
+	sources/characters/ft_isalnum.c											\
+	sources/characters/ft_isalpha.c											\
+	sources/characters/ft_isascii.c											\
+	sources/characters/ft_isdigit.c											\
+	sources/characters/ft_isprint.c											\
+	sources/characters/ft_tolower.c											\
+	sources/characters/ft_toupper.c											\
+	sources/memories/ft_bzero.c												\
+	sources/memories/ft_memcpy.c											\
+	sources/memories/ft_memmove.c											\
+	sources/memories/ft_memset.c											\
+	sources/strings/ft_strchr.c												\
+	sources/strings/ft_strlcat.c											\
+	sources/strings/ft_strlcpy.c											\
+	sources/strings/ft_strlen.c												\
+	sources/strings/ft_strnlen.c											\
+	sources/strings/ft_strrchr.c
 
 OBJECTS = $(SOURCES:.c=.o)
