@@ -6,7 +6,7 @@
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/19 20:38:00 by mmosca            #+#    #+#             */
-/*   Updated: 2024/10/24 17:16:25 by mmosca           ###   ########.fr       */
+/*   Updated: 2024/10/24 17:39:12 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,7 @@ char	*ft_strchr(const char *s, int c);
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
 size_t	ft_strlen(const char *s);
+int		ft_strncmp(const char *s1, const char *s2, size_t n);
 size_t	ft_strnlen(const char *s, size_t maxlen);
 char	*ft_strrchr(const char *s, int c);
 

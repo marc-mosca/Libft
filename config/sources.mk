@@ -26,6 +26,7 @@ SOURCES = 																	\
 	sources/strings/ft_strlcat.c											\
 	sources/strings/ft_strlcpy.c											\
 	sources/strings/ft_strlen.c												\
+	sources/strings/ft_strncmp.c											\
 	sources/strings/ft_strnlen.c											\
 	sources/strings/ft_strrchr.c
 
