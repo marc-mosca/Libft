@@ -26,6 +26,7 @@ SOURCES = 																	\
 	src/strings/ft_strlcat.c												\
 	src/strings/ft_strlcpy.c												\
 	src/strings/ft_strlen.c													\
-	src/strings/ft_strnlen.c
+	src/strings/ft_strnlen.c												\
+	src/strings/ft_strrchr.c
 
 OBJECTS = $(SOURCES:.c=.o)
