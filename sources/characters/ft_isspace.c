@@ -6,7 +6,7 @@
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 09:52:29 by mmosca            #+#    #+#             */
-/*   Updated: 2024/10/25 09:59:37 by mmosca           ###   ########.fr       */
+/*   Updated: 2024/10/25 10:24:39 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@
  *
  * @return True if `c` is a whitespace character, false otherwise.
  */
-bool ft_isspace(int c)
+bool	ft_isspace(int c)
 {
 	return (c == ' ' || (c >= '\t' && c <= '\r'));
 }
