@@ -6,7 +6,7 @@
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/19 20:38:00 by mmosca            #+#    #+#             */
-/*   Updated: 2024/10/25 09:43:48 by mmosca           ###   ########.fr       */
+/*   Updated: 2024/10/25 09:53:48 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 // MARK: - Includes
 
+# include <limits.h>
 # include <stdbool.h>
 # include <stdio.h>
 
@@ -25,8 +26,11 @@ bool	ft_isalpha(int c);
 bool	ft_isascii(int c);
 bool	ft_isdigit(int c);
 bool	ft_isprint(int c);
+bool	ft_isspace(int c);
 int		ft_tolower(int c);
 int		ft_toupper(int c);
+
+int		ft_atoi(const char *str);
 
 void	ft_bzero(void *s, size_t n);
 void	*ft_memchr(const void *s, int c, size_t n);

@@ -16,8 +16,10 @@ SOURCES = 																	\
 	sources/characters/ft_isascii.c											\
 	sources/characters/ft_isdigit.c											\
 	sources/characters/ft_isprint.c											\
+	sources/characters/ft_isspace.c											\
 	sources/characters/ft_tolower.c											\
 	sources/characters/ft_toupper.c											\
+	sources/convertions/ft_atoi.c											\
 	sources/memories/ft_bzero.c												\
 	sources/memories/ft_memchr.c											\
 	sources/memories/ft_memcmp.c											\
