@@ -28,6 +28,7 @@ SOURCES = 																	\
 	sources/memories/ft_memmove.c											\
 	sources/memories/ft_memset.c											\
 	sources/strings/ft_strchr.c												\
+	sources/strings/ft_strdup.c												\
 	sources/strings/ft_strlcat.c											\
 	sources/strings/ft_strlcpy.c											\
 	sources/strings/ft_strlen.c												\
