@@ -6,7 +6,7 @@
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/19 20:38:00 by mmosca            #+#    #+#             */
-/*   Updated: 2024/10/25 09:53:48 by mmosca           ###   ########.fr       */
+/*   Updated: 2024/10/25 10:06:14 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 
 # include <limits.h>
 # include <stdbool.h>
+# include <stdlib.h>
 # include <stdio.h>
 
 // MARK: - Prototypings
@@ -33,6 +34,7 @@ int		ft_toupper(int c);
 int		ft_atoi(const char *str);
 
 void	ft_bzero(void *s, size_t n);
+void	*ft_calloc(size_t count, size_t size);
 void	*ft_memchr(const void *s, int c, size_t n);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
 void	*ft_memcpy(void *dst, const void *src, size_t n);
