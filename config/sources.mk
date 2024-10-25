@@ -30,6 +30,7 @@ SOURCES = 																	\
 	sources/strings/ft_strlen.c												\
 	sources/strings/ft_strncmp.c											\
 	sources/strings/ft_strnlen.c											\
+	sources/strings/ft_strnstr.c											\
 	sources/strings/ft_strrchr.c
 
 OBJECTS = $(SOURCES:.c=.o)
