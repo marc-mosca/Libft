@@ -6,7 +6,7 @@
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/19 20:38:00 by mmosca            #+#    #+#             */
-/*   Updated: 2024/10/25 10:26:35 by mmosca           ###   ########.fr       */
+/*   Updated: 2024/10/25 10:35:50 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,7 @@ void	*ft_memset(void *b, int c, size_t len);
 
 char	*ft_strchr(const char *s, int c);
 char	*ft_strdup(const char *s1);
+char	*ft_strjoin(char const *s1, char const *s2);
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
 size_t	ft_strlen(const char *s);
