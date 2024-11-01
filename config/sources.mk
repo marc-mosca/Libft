@@ -20,6 +20,7 @@ SOURCES = 																	\
 	sources/characters/ft_tolower.c											\
 	sources/characters/ft_toupper.c											\
 	sources/convertions/ft_atoi.c											\
+	sources/convertions/ft_itoa.c											\
 	sources/memories/ft_bzero.c												\
 	sources/memories/ft_calloc.c											\
 	sources/memories/ft_memchr.c											\
