@@ -1,23 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   stdlib.h                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/19 20:38:00 by mmosca            #+#    #+#             */
-/*   Updated: 2024/11/01 20:47:31 by mmosca           ###   ########.fr       */
+/*   Created: 2024/11/01 17:54:14 by mmosca            #+#    #+#             */
+/*   Updated: 2024/11/01 20:59:37 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
+#ifndef STDLIB_H
+# define STDLIB_H
 
 // MARK: - Includes
 
-# include "./sources/ctype/ctype.h"
-# include "./sources/ft/ft.h"
-# include "./sources/stdlib/stdlib.h"
-# include "./sources/string/string.h"
+# include <limits.h>
+# include <stdlib.h>
 
-#endif // LIBFT_H
+// MARK: - Prototypings
+
+int		ft_abs(int integer);
+int		ft_atoi(const char *source);
+void	*ft_calloc(size_t count, size_t size);
+
+#endif // STDLIB_H
