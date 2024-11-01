@@ -11,4 +11,6 @@
 # **************************************************************************** #
 
 DEPENDENCIES = 																\
+	sources/ctype/ctype.h													\
+	sources/string/string.h													\
 	libft.h

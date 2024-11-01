@@ -50,6 +50,10 @@ help: ## Displays this help menu of commands available for the project.
 	| sort \
 	| awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-12s\033[0m %s\n", $$1, $$2}'
 
+.PHONY: norm
+norm: ## Executes the norminette program.
+	python3 -m norminette .
+
 .PHONY: re
 re: ## Executes `fclean` and `all` commands.
 	$(MAKE) fclean

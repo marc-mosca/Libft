@@ -1,23 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft.h                                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/19 20:38:00 by mmosca            #+#    #+#             */
-/*   Updated: 2024/11/01 20:47:31 by mmosca           ###   ########.fr       */
+/*   Created: 2024/11/01 20:46:55 by mmosca            #+#    #+#             */
+/*   Updated: 2024/11/01 20:57:38 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
+#ifndef FT_H
+# define FT_H
 
 // MARK: - Includes
 
-# include "./sources/ctype/ctype.h"
-# include "./sources/ft/ft.h"
-# include "./sources/stdlib/stdlib.h"
-# include "./sources/string/string.h"
+# include <stdlib.h>
 
-#endif // LIBFT_H
+// MARK: - Prototypings
+
+char	**ft_split(const char *source, char character);
+char	*ft_strjoin(const char *source1, const char *source2);
+char	*ft_strtrim(const char *source, const char *set);
+char	*ft_substr(const char *source, unsigned int start, size_t length);
+
+#endif // FT_H

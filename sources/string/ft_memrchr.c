@@ -1,23 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_memrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/19 20:38:00 by mmosca            #+#    #+#             */
-/*   Updated: 2024/11/01 20:47:31 by mmosca           ###   ########.fr       */
+/*   Created: 2024/11/01 17:29:26 by mmosca            #+#    #+#             */
+/*   Updated: 2024/11/01 17:30:54 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
+#include "libft.h"
 
-// MARK: - Includes
+void	*ft_memrchr(const void *source, int character, size_t length)
+{
+	const unsigned char	*src;
 
-# include "./sources/ctype/ctype.h"
-# include "./sources/ft/ft.h"
-# include "./sources/stdlib/stdlib.h"
-# include "./sources/string/string.h"
-
-#endif // LIBFT_H
+	src = source;
+	character = (unsigned char) character;
+	while (length > 0)
+	{
+		length--;
+		if (src[length] == character)
+			return ((void *) src + length);
+	}
+	return (NULL);
+}
