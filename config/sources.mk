@@ -27,13 +27,16 @@ SOURCES = 																	\
 	sources/memories/ft_memcpy.c											\
 	sources/memories/ft_memmove.c											\
 	sources/memories/ft_memset.c											\
+	sources/strings/ft_split.c												\
 	sources/strings/ft_strchr.c												\
+	sources/strings/ft_strcspn.c											\
 	sources/strings/ft_strdup.c												\
 	sources/strings/ft_strjoin.c											\
 	sources/strings/ft_strlcat.c											\
 	sources/strings/ft_strlcpy.c											\
 	sources/strings/ft_strlen.c												\
 	sources/strings/ft_strncmp.c											\
+	sources/strings/ft_strndup.c											\
 	sources/strings/ft_strnlen.c											\
 	sources/strings/ft_strnstr.c											\
 	sources/strings/ft_strrchr.c											\
