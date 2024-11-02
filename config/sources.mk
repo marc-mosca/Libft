@@ -23,6 +23,7 @@ SOURCES = 																	\
 	sources/ctype/ft_toupper.c												\
 	sources/ft/ft_itoa.c													\
 	sources/ft/ft_putchar_fd.c												\
+	sources/ft/ft_putendl_fd.c												\
 	sources/ft/ft_putstr_fd.c												\
 	sources/ft/ft_split.c													\
 	sources/ft/ft_striteri.c												\
