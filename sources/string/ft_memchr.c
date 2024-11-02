@@ -6,7 +6,7 @@
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 16:51:49 by mmosca            #+#    #+#             */
-/*   Updated: 2024/11/01 16:58:31 by mmosca           ###   ########.fr       */
+/*   Updated: 2024/11/02 12:32:35 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@
  * matching byte in the memory block is returned. If the byte is not found
  * within the first `length` bytes, the function returns `NULL`.
  *
- * Exemple:
+ * Example:
  * @code{.c}
  * int main(void)
  * {

@@ -20,7 +20,7 @@
  * `character` is found, a pointer to the first occurrence of `character` in the
  * string is returned. If `character` is not found, the function returns `NULL`.
  *
- * Exemple:
+ * Example:
  * @code{.c}
  * int main(void)
  * {

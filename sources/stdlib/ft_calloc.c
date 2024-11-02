@@ -6,7 +6,7 @@
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 18:15:32 by mmosca            #+#    #+#             */
-/*   Updated: 2024/11/01 18:26:20 by mmosca           ###   ########.fr       */
+/*   Updated: 2024/11/02 12:32:28 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
  * `size` bytes, and initializes all allocated bytes to zero. It returns a
  * pointer to the allocated memory. If the allocation fails, `NULL` is returned.
  *
- * Exemple:
+ * Example:
  * @code{.c}
  * int main(void)
  * {

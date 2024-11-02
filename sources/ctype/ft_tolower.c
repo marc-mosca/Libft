@@ -20,7 +20,7 @@
  * to its ASCII value. If the character is not an uppercase letter, it is
  * returned unchanged.
  *
- * Exemple:
+ * Example:
  * @code{.c}
  * int main(void)
  * {

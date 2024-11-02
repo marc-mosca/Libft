@@ -22,7 +22,7 @@
  * of the string `source`, which allows the caller to detect truncation if the
  * return value is greater than or equal to `length`.
  *
- * Exemple:
+ * Example:
  * @code{.c}
  * int main(void)
  * {

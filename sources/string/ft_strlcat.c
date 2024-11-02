@@ -24,7 +24,7 @@
  * than or equal to `length`, it means truncation occurred, and the result is
  * not fully copied.
  *
- * Exemple:
+ * Example:
  * @code{.c}
  * int main(void)
  * {

@@ -22,7 +22,7 @@
  * to, or greater than zero depending on whether `source1` is found to be less
  * than, equal to, or greater than `source2`.
  *
- * Exemple:
+ * Example:
  * @code{.c}
  * int main(void)
  * {

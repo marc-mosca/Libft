@@ -6,7 +6,7 @@
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 17:31:12 by mmosca            #+#    #+#             */
-/*   Updated: 2024/11/01 17:34:16 by mmosca           ###   ########.fr       */
+/*   Updated: 2024/11/02 12:33:41 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@
  * `character` is found, a pointer to the last occurrence of `character` in the
  * string is returned. If `character` is not found, the function returns `NULL`.
  *
- * Exemple:
+ * Example:
  * @code{.c}
  * int main(void)
  * {

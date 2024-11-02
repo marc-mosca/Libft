@@ -6,7 +6,7 @@
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 16:18:23 by mmosca            #+#    #+#             */
-/*   Updated: 2024/11/01 16:20:58 by mmosca           ###   ########.fr       */
+/*   Updated: 2024/11/02 12:32:32 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
  * This function fills the first `length` bytes of the memory area pointed to by
  * `buffer` with zero bytes. It is typically used to initialize or reset memory.
  *
- * Exemple:
+ * Example:
  * @code{.c}
  * int main(void)
  * {

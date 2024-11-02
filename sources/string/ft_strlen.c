@@ -18,7 +18,7 @@
  * This function calculates the length of the string by counting the number of
  * characters before the terminating null character.
  *
- * Exemple:
+ * Example:
  * @code{.c}
  * int main(void)
  * {

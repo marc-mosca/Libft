@@ -19,7 +19,7 @@
  * `source` and returns a pointer to the new string. If allocation fails, `NULL`
  * is returned. The copied string is null-terminated.
  *
- * Exemple:
+ * Example:
  * @code{.c}
  * int main(void)
  * {

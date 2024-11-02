@@ -6,7 +6,7 @@
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 16:27:33 by mmosca            #+#    #+#             */
-/*   Updated: 2024/11/01 16:32:55 by mmosca           ###   ########.fr       */
+/*   Updated: 2024/11/02 12:32:44 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@
  * before the destination, the copying is done backwards to avoid corruption. If
  * either `destination` or `source` is `NULL`, the function returns `NULL`.
  *
- * Exemple:
+ * Example:
  * @code{.c}
  * int main(void)
  * {

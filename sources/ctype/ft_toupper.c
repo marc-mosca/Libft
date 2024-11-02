@@ -6,7 +6,7 @@
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 17:10:25 by mmosca            #+#    #+#             */
-/*   Updated: 2024/11/01 17:22:54 by mmosca           ###   ########.fr       */
+/*   Updated: 2024/11/02 12:32:08 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@
  * 32 from its ASCII value. If the character is not a lowercase letter, it is
  * returned unchanged.
  *
- * Exemple:
+ * Example:
  * @code{.c}
  * int main(void)
  * {

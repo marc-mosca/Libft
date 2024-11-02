@@ -6,7 +6,7 @@
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 15:29:02 by mmosca            #+#    #+#             */
-/*   Updated: 2024/11/01 15:59:55 by mmosca           ###   ########.fr       */
+/*   Updated: 2024/11/02 12:31:57 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
  * uses the ASCII values of the characters to determine if the character is a
  * digit.
  *
- * Exemple:
+ * Example:
  * @code{.c}
  * int main(void)
  * {

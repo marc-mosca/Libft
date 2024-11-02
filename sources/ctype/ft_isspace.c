@@ -19,7 +19,7 @@
  * character, including spaces, tab, newline, vertical tab, form feed, or
  * carriage return.
  *
- * Exemple:
+ * Example:
  * @code{.c}
  * int main(void)
  * {

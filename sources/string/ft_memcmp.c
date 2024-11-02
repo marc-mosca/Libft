@@ -6,7 +6,7 @@
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 17:44:16 by mmosca            #+#    #+#             */
-/*   Updated: 2024/11/01 17:48:37 by mmosca           ###   ########.fr       */
+/*   Updated: 2024/11/02 12:32:38 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@
  * differing bytes interpreted as `unsigned char` values. If the blocks are
  * identical up to the specified number of bytes, the function returns 0.
  *
- * Exemple:
+ * Example:
  * @code{.c}
  * int main(void)
  * {

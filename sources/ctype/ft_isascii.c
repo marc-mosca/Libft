@@ -18,7 +18,7 @@
  * This function checks whether the provided character is part of the ASCII set,
  * which includes characters with values from 0 to 127 (inclusive).
  *
- * Exemple:
+ * Example:
  * @code{.c}
  * int main(void)
  * {

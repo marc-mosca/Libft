@@ -25,7 +25,7 @@
  * - If the result overflows `INT_MAX`, it returns -1; if it underflows
  * `INT_MIN`, it returns 0.
  *
- * Exemple:
+ * Example:
  * @code{.c}
  * int main(void)
  * {

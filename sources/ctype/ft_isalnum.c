@@ -18,7 +18,7 @@
  * This function checks whether the provided character is alphanumeric, meaning
  * it is either a letter (uppercase or lowercase) or a numeric digit.
  *
- * Exemple:
+ * Example:
  * @code{.c}
  * int main(void)
  * {

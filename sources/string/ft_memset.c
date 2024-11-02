@@ -6,12 +6,34 @@
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 16:00:35 by mmosca            #+#    #+#             */
-/*   Updated: 2024/11/01 16:17:29 by mmosca           ###   ########.fr       */
+/*   Updated: 2024/11/02 12:34:20 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Fills specific positions of a buffer with a specified character.
+ *
+ * This function assigns the `character` value to specific positions in the
+ * buffer. It fills the first, last, and several inner positions, ensuring
+ * boundary checks based on `length` to prevent buffer overflows for small
+ * sizes.
+ *
+ * - For length >= 1, the first and last positions are filled.
+ * - For length >= 3, the second and second-last positions are filled.
+ * - For length >= 7, additional inner positions are filled.
+ *
+ * @param ptr A pointer to the buffer to be modified.
+ * @param character The character to insert into the buffer, given as an
+ * integer.
+ * @param length The size of the buffer.
+ *
+ * @return This function does not return a value.
+ *
+ * @note If `length` is less than or equal to 2, only the first and last
+ * positions are set. Buffer regions are selectively assigned based on `length`.
+ */
 static void	fill_buffer(unsigned char *ptr, int character, size_t length)
 {
 	ptr[0] = character;
@@ -34,7 +56,7 @@ static void	fill_buffer(unsigned char *ptr, int character, size_t length)
  * This function sets the first `length` bytes of the memory area pointed to by
  * `buffer` to the specified value `character`.
  *
- * Exemple:
+ * Example:
  * @code{.c}
  * int main(void)
  * {

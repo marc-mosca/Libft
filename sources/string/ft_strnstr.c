@@ -23,7 +23,7 @@
  * found, a pointer to the beginning of the substring within `haystack` is
  * returned.
  *
- * Exemple:
+ * Example:
  * @code{.c}
  * int main(void)
  * {

@@ -6,7 +6,7 @@
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 16:21:38 by mmosca            #+#    #+#             */
-/*   Updated: 2024/11/01 16:26:27 by mmosca           ###   ########.fr       */
+/*   Updated: 2024/11/02 12:32:41 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@
  * overlapping memory regions, so if the source and destination overlap, the
  * behavior is undefined.
  *
- * Exemple:
+ * Example:
  * @code{.c}
  * int main(void)
  * {

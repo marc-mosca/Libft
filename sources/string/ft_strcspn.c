@@ -19,7 +19,7 @@
  * This function returns the number of characters in the initial segment of
  * `source` that do not appear in `charset`.
  *
- * Exemple:
+ * Example:
  * @code{.c}
  * int main(void)
  * {

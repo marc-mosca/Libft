@@ -20,7 +20,7 @@
  * and then the contents of `source` are copied into it. If the memory
  * allocation fails, the function returns `NULL`.
  *
- * Exemple:
+ * Example:
  * @code{.c}
  * int main(void)
  * {

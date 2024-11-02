@@ -19,7 +19,7 @@
  * character. Printable characters include all visible characters from space to
  * tilde corresponding to ASCII values 32 through 126.
  *
- * Exemple:
+ * Example:
  * @code{.c}
  * int main(void)
  * {

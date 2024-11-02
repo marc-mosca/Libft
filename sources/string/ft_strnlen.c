@@ -20,7 +20,7 @@
  * the null-terminator or the value of `length`, whichever is smaller. This is
  * useful when working with buffers of limited size.
  *
- * Exemple:
+ * Example:
  * @code{.c}
  * int main(void)
  * {

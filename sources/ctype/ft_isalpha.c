@@ -6,7 +6,7 @@
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 14:59:20 by mmosca            #+#    #+#             */
-/*   Updated: 2024/11/01 17:15:43 by mmosca           ###   ########.fr       */
+/*   Updated: 2024/11/02 12:31:50 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
  * either uppercase or lowercase. It uses the ASCII values of the characters to
  * determine if the character is alphabetic.
  *
- * Exemple:
+ * Example:
  * @code{.c}
  * int main(void)
  * {
