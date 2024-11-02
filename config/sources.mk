@@ -21,6 +21,7 @@ SOURCES = 																	\
 	sources/ctype/ft_isupper.c												\
 	sources/ctype/ft_tolower.c												\
 	sources/ctype/ft_toupper.c												\
+	sources/ft/ft_itoa.c													\
 	sources/ft/ft_split.c													\
 	sources/ft/ft_strjoin.c													\
 	sources/ft/ft_strtrim.c													\
