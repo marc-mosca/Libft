@@ -24,6 +24,7 @@ SOURCES = 																	\
 	sources/ft/ft_itoa.c													\
 	sources/ft/ft_split.c													\
 	sources/ft/ft_strjoin.c													\
+	sources/ft/ft_strmapi.c													\
 	sources/ft/ft_strtrim.c													\
 	sources/ft/ft_substr.c													\
 	sources/stdlib/ft_abs.c													\
