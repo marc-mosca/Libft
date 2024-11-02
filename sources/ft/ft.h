@@ -6,7 +6,7 @@
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 20:46:55 by mmosca            #+#    #+#             */
-/*   Updated: 2024/11/02 13:49:35 by mmosca           ###   ########.fr       */
+/*   Updated: 2024/11/02 13:57:32 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,7 @@
 char	*ft_itoa(int number);
 size_t	ft_putchar_fd(char character, int filedescriptor);
 size_t	ft_putendl_fd(const char *source, int filedescriptor);
+size_t	ft_putnbr_fd(int number, int filedescriptor);
 size_t	ft_putstr_fd(const char *source, int filedescriptor);
 char	**ft_split(const char *source, char character);
 void	ft_striteri(char *source, void (*func)(unsigned int, char *));
