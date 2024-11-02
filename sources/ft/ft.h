@@ -6,7 +6,7 @@
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 20:46:55 by mmosca            #+#    #+#             */
-/*   Updated: 2024/11/02 13:33:22 by mmosca           ###   ########.fr       */
+/*   Updated: 2024/11/02 13:37:10 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@
 
 char	*ft_itoa(int number);
 char	**ft_split(const char *source, char character);
+void	ft_striteri(char *source, void (*func)(unsigned int, char *));
 char	*ft_strjoin(const char *source1, const char *source2);
 char	*ft_strmapi(const char *source, char (*func)(unsigned int, char));
 char	*ft_strtrim(const char *source, const char *set);
