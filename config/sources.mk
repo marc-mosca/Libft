@@ -22,6 +22,7 @@ SOURCES = 																	\
 	sources/ctype/ft_tolower.c												\
 	sources/ctype/ft_toupper.c												\
 	sources/ft/ft_itoa.c													\
+	sources/ft/ft_putchar_fd.c												\
 	sources/ft/ft_split.c													\
 	sources/ft/ft_striteri.c												\
 	sources/ft/ft_strjoin.c													\
