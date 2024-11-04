@@ -22,6 +22,7 @@ SOURCES = 																	\
 	sources/ctype/ft_tolower.c												\
 	sources/ctype/ft_toupper.c												\
 	sources/ft/lists/ft_lstadd_front.c										\
+	sources/ft/lists/ft_lstlast.c											\
 	sources/ft/lists/ft_lstnew.c											\
 	sources/ft/lists/ft_lstsize.c											\
 	sources/ft/ft_itoa.c													\
