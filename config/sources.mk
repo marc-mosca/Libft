@@ -23,6 +23,7 @@ SOURCES = 																	\
 	sources/ctype/ft_toupper.c												\
 	sources/ft/lists/ft_lstadd_back.c										\
 	sources/ft/lists/ft_lstadd_front.c										\
+	sources/ft/lists/ft_lstclear.c											\
 	sources/ft/lists/ft_lstdelone.c											\
 	sources/ft/lists/ft_lstlast.c											\
 	sources/ft/lists/ft_lstnew.c											\
