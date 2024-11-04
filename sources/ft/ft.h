@@ -6,7 +6,7 @@
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 20:46:55 by mmosca            #+#    #+#             */
-/*   Updated: 2024/11/02 13:57:32 by mmosca           ###   ########.fr       */
+/*   Updated: 2024/11/04 12:33:09 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,17 @@
 # include <stdlib.h>
 # include <unistd.h>
 
+// MARK: - Structures
+
+typedef struct	s_list
+{
+	void			*content;
+	struct s_list	*next;
+}	t_list;
+
 // MARK: - Prototypings
+
+t_list	*ft_lstnew(void *content);
 
 char	*ft_itoa(int number);
 size_t	ft_putchar_fd(char character, int filedescriptor);
