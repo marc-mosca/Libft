@@ -27,6 +27,7 @@ SOURCES = 																	\
 	sources/ft/lists/ft_lstdelone.c											\
 	sources/ft/lists/ft_lstiter.c											\
 	sources/ft/lists/ft_lstlast.c											\
+	sources/ft/lists/ft_lstmap.c											\
 	sources/ft/lists/ft_lstnew.c											\
 	sources/ft/lists/ft_lstsize.c											\
 	sources/ft/ft_itoa.c													\
