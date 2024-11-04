@@ -6,7 +6,7 @@
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 20:46:55 by mmosca            #+#    #+#             */
-/*   Updated: 2024/11/04 12:33:09 by mmosca           ###   ########.fr       */
+/*   Updated: 2024/11/04 12:36:39 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,7 @@ typedef struct	s_list
 
 // MARK: - Prototypings
 
+void	ft_lstadd_front(t_list **alst, t_list *new);
 t_list	*ft_lstnew(void *content);
 
 char	*ft_itoa(int number);
