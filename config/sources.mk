@@ -25,6 +25,7 @@ SOURCES = 																	\
 	sources/ft/lists/ft_lstadd_front.c										\
 	sources/ft/lists/ft_lstclear.c											\
 	sources/ft/lists/ft_lstdelone.c											\
+	sources/ft/lists/ft_lstiter.c											\
 	sources/ft/lists/ft_lstlast.c											\
 	sources/ft/lists/ft_lstnew.c											\
 	sources/ft/lists/ft_lstsize.c											\
