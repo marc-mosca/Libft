@@ -6,7 +6,7 @@
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 20:46:55 by mmosca            #+#    #+#             */
-/*   Updated: 2024/11/04 12:46:46 by mmosca           ###   ########.fr       */
+/*   Updated: 2024/11/04 12:49:11 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,7 @@ typedef struct	s_list
 
 void	ft_lstadd_back(t_list **alst, t_list *new);
 void	ft_lstadd_front(t_list **alst, t_list *new);
+void	ft_lstdelone(t_list *lst, void (*del)(void *));
 t_list	*ft_lstlast(t_list *lst);
 t_list	*ft_lstnew(void *content);
 size_t	ft_lstsize(t_list *lst);
