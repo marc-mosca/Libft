@@ -6,7 +6,7 @@
 /*   By: mmosca <mmosca@student.42lyon.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 20:46:55 by mmosca            #+#    #+#             */
-/*   Updated: 2024/11/04 12:36:39 by mmosca           ###   ########.fr       */
+/*   Updated: 2024/11/04 12:40:01 by mmosca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,7 @@ typedef struct	s_list
 
 void	ft_lstadd_front(t_list **alst, t_list *new);
 t_list	*ft_lstnew(void *content);
+size_t	ft_lstsize(t_list *lst);
 
 char	*ft_itoa(int number);
 size_t	ft_putchar_fd(char character, int filedescriptor);

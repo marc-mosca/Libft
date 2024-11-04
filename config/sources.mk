@@ -23,6 +23,7 @@ SOURCES = 																	\
 	sources/ctype/ft_toupper.c												\
 	sources/ft/lists/ft_lstadd_front.c										\
 	sources/ft/lists/ft_lstnew.c											\
+	sources/ft/lists/ft_lstsize.c											\
 	sources/ft/ft_itoa.c													\
 	sources/ft/ft_putchar_fd.c												\
 	sources/ft/ft_putendl_fd.c												\
